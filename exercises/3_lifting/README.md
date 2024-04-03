@@ -36,6 +36,8 @@ First open `lift0-pre.ll` and do the following exercises:
 
 Now look at the optimized `lift0.ll` and do these exercises:
 - What IR instruction stores the result in `rax`?
+store??
+
 - What IR instruction reads the return address (`[rsp]`)?
 
 ## Recovering the calling convention

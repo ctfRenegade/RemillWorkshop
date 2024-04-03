@@ -21,7 +21,8 @@ uint32_t upper_32_bits(uint64_t n);
     }                                                                                              \
   }
 
-static uint32_t g_stored = 0;
+extern uint32_t g_stored;
+uint32_t g_stored = 0;
 
 extern "C" void store_value(uint32_t n, uint32_t key) {
   if ((n & 1) == 0) {
